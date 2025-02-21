@@ -3,4 +3,7 @@
 This is laravel Package.
 
 * Register service provider of this package.
-* And check terminal menu or /terminal routes. 
+* And check terminal menu or /terminal routes.
+
+
+<img src="./shell.png" alt="shell" />
