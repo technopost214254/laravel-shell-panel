@@ -1,0 +1,33 @@
+{
+    "name": "Webkul/Terminal",
+    "description": "Terminal adds a terminal interface to your web application, allowing you to run shell commands directly from your browser.",
+    "type": "library",
+    "require": {
+        "php": "^8.2|^8.3",
+        "laravel/framework": "^11",
+        "livewire/livewire": "^3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Terminal\\TerminalServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Terminal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vikas",
+            "email": "vikas.vishwakarma749@webkul.in"
+        }
+    ],
+    "minimum-stability": "dev"
+}
